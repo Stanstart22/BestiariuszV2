@@ -1,0 +1,82 @@
+.main {
+  display: block;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.10968137254901966) 0%,
+    rgba(22, 22, 22, 1) 90%
+  );
+  width: 100%;
+  height: 1000px;
+}
+body {
+  background-image: url("./assets/background_location.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: 90% 17%;
+}
+.dot {
+  position: absolute;
+  border-radius: 50%;
+  width: 685px;
+  height: 685px;
+  background-color: #5dbf2e;
+  opacity: 0.8;
+  left: 610px;
+  top: -650px;
+  filter: blur(45px);
+}
+.mhw_logo {
+  background-repeat: no-repeat;
+  width: 148px;
+  height: 69px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 59px;
+}
+.header {
+  color: white;
+  font-size: 80px;
+  width: 1005px;
+  height: 376px;
+  margin: 0;
+  padding-top: 65px;
+  padding-left: 450px;
+}
+.welcome {
+  position: relative;
+  display: flex;
+  width: 678px;
+  height: 168px;
+  font-size: 14px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 150%;
+  letter-spacing: 0.035cm;
+  bottom: 70px;
+}
+.navigation {
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.ancient_forest{
+    display: flex;
+    background-position: center;
+    background-image: url("./assets/ancient_forest.png");
+    width: 1120px;
+    height: 627px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    border: solid;
+}

@@ -1,0 +1,88 @@
+body {
+  background-color: black;
+  margin: 0;
+  background-image: url("./assets/nargacuga_background.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: cover;
+}
+.monster {
+  display: flex;
+  margin: auto auto;
+  flex-wrap: wrap;
+  border: 1px solid #2b2b2b;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 16px;
+  width: 100%;
+  max-width: 1120px;
+  backdrop-filter: blur(12px);
+}
+.monster_text {
+  padding-left: 54px;
+  padding-top: 130px;
+}
+.monster_title {
+  margin: 0;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 120%;
+  width: 100%;
+  color: white;
+}
+.monster_attributes_list {
+  list-style-type: none;
+  font-size: 14px;
+  padding-left: 0;
+  color: white;
+  align-items: center;
+}
+.monster_type {
+  font-size: 22px;
+  color: #414141;
+  margin-top: 7px;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+.monster_image_container {
+  display: flex;
+  border: solid;
+  background-color: rgb(32, 32, 32);
+  border-image: linear-gradient(180deg, green, black) 1;
+  border-width: 2px;
+  border-radius: 4px;
+  width: 398px;
+  height: 398px;
+  padding: 32px;
+}
+.monster_image {
+  display: block;
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+}
+.monsters-row {
+  display: flex;
+  gap: 48px;
+}
+.monsters {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding-top: 128px;
+}
+.background_gradient {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 10%,
+      rgba(0, 0, 0, 1) 100%
+    )
+    rgba(0, 0, 0, 0.7);
+}
+.monster_attributes_list_item {
+  display: flex;
+  justify-content: space-between;
+  max-width: 200px;
+}

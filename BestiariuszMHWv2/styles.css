@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-image: url("./assets/background_mhw.png");
+  width: 100%;
+  background-size: cover;
+  align-items: center;
+  z-index: -1;
+}
+.mhw_logo {
+  background-repeat: no-repeat;
+  width: 148px;
+  height: 69px;
+  padding-left: 40px;
+  padding-top: 59px;
+}
+.header {
+  display: flex;
+  color: white;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 80px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 200px;
+}
+.description {
+  display: flex;
+  color: rgba(255, 255, 255, 0.452);
+  text-align: center;
+  max-width: 678px;
+  font-size: 14px;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  margin: auto;
+  padding-top: 16px;
+}
+.background_gradient {
+  background-size: cover;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.10968137254901966) 0%,
+    rgba(0, 0, 0, 0.7959558823529411) 88%
+  );
+  min-height: 100vh;
+}

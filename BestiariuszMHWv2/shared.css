@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: 'Inter', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.main_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 32px 0 32px;
+}
+.monster_hunter_logo {
+  margin: 0;
+}
+.nav_monster_page {
+  display: flex;
+  gap: 32px;
+  list-style-type: none;
+  margin: 0;
+}
+.dot {
+  position: absolute;
+  left: 650px;
+  top: -450px;
+  height: 685px;
+  width: 685px;
+  border-radius: 50%;
+  filter: blur(40px);
+}
+.dot_gradient {
+  background: rgb(92, 200, 40);
+  background: linear-gradient(
+    180deg,
+    rgb(77, 167, 35) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  filter: blur(65px);
+}
